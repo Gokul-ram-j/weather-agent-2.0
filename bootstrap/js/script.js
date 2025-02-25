@@ -60,7 +60,7 @@ function response(city){
         vid="./assert/wind.svg"
        }
        main_img.setAttribute("src",vid)
-       console.log(city)
+       console.log(city,vid,weatherdesc)
        document.querySelector(".showlocation").innerHTML=" "+data.name
        document.querySelector(".temp").innerHTML=data.main.temp
        document.querySelector(".humidity").innerHTML=data.main.humidity
