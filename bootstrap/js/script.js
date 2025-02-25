@@ -36,7 +36,7 @@ function response(city){
       }
       else if(weathercondition=="Clouds"){
         if(weatherdesc=="scattered clouds"){
-          vid=""
+          vid="./assert/wind.svg"
         }
         else if(weatherdesc=="overcast clouds"){
          vid="./assert/overcastcloud.svg"
